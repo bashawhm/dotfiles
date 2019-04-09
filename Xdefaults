@@ -1,0 +1,6 @@
+URxvt*transparency:true
+URxvt*shading:40
+URxvt*inheritPixmap:true
+URxvt*blurRadius:2x2
+//URxvt*tintColor:#666666
+URxvt*scrollBar:false

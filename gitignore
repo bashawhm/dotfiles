@@ -1,0 +1,3 @@
+*.swp
+spec/design/version
+.DS_Store

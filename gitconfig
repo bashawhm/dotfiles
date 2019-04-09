@@ -1,0 +1,34 @@
+[user]
+    email = hunter@blivet.sh
+	name = Hunter Bashaw
+[core]
+	autocrlf = input
+    eol = lf
+    excludesFile = ~/.gitignore
+    editor = vim
+[branch]
+	autosetuprebase = always
+[push]
+    default = current
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    pull-isabelle = pull
+    home = config user.email hunter@blivet.sh
+[credential]
+	helper = cache --timeout=3600000
+[git-tf "server"]
+	username = bashawhm
+[color]
+	ui = true
+[pull]
+    rebase = true
+[fetch]
+    prune = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	program = gpg
