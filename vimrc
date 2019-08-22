@@ -24,6 +24,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'CSApprox'
 Plugin 'baskerville/bubblegum'
+Plugin 'challenger-deep-theme/vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular'
 Plugin 'airblade/vim-gitgutter'
@@ -83,7 +84,7 @@ set showmatch " Show me matching braces etc
 
 """ Styles, colors, etc
 syntax enable
-colorscheme bubblegum-256-dark
+colorscheme challenger_deep
 
 set encoding=utf8
 try " try for machines where locales are broken
